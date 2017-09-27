@@ -3,10 +3,10 @@ require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 class Php54Ioncubeloader < AbstractPhp54Extension
   init
   desc "Loader for ionCube Secured Files"
-  homepage "http://www.ioncube.com/loaders.php"
-  url "http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_dar_x86-64.tar.gz"
-  sha256 "e5683c7340f6f6b98de36d9afdd961aa8d2c7949432868502b84a43959802c0d"
-  version "10.0.2"
+  homepage "https://www.ioncube.com/loaders.php"
+  url "https://downloads.ioncube.com/loader_downloads/ioncube_loaders_dar_x86-64.tar.gz"
+  sha256 "af0b548d0e27e6fea9f0b5ee73b2c2099e1cd67f6dd9fd74d2e718ff151d994f"
+  version "10.0.3"
 
   bottle do
     cellar :any_skip_relocation
